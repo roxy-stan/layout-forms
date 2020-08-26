@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <title>Blockchain-contact</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Blockchain-contact">
+    <meta name="author" content="Roxana Stan">
+    <meta name="keyword" content="HTML,CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="bundles/font-awesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/CSS" href="resources/main-contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        
+        <header>
+            <div class="header-wrapper-logo-menu">
+                <div class="logo-wrapper">
+                    <img src="assets/logo.png" alt="logo">
+                </div>
+
+                <nav class="menu">
+                    <span><a href="signup.html">Sign up</a></span>
+                    <span><a href="about.html">About</a></span>
+                    <span><a href="services.html">Services</a></span>
+                    <span><a href="contact.html">Contact</a></span>
+                    <span><a href="community.html">Community</a></span>
+            </nav>
+            </div>
+
+        <h1>Contact us</h1>
+        <div class="separator-first"></div>
+        <p>Fill out the form below to learn more</p>
+            
+        </header>
+
+
+        <!-- foarte general numele clasei doar pentru un form. iti sugerez sa folosesti nume mai specifice de atat -->
+    <form class="container-form-contact">
+        <div><label for="nameInput">First name</label><div>
+        <div class="input-wrapper">
+            <i class="fas fa-user"></i>
+            <input required autofocus class="input-validation" type="text" name="name_input" id="nameInput" minlength="5" placeholder="Enter your first name here" />
+        </div>
+
+
+        <div><label for="nameInput">Last name</label></div>
+        <div class="input-wrapper">
+            <i class="fas fa-user"></i>
+            <input required class="input-validation" type="text" name="name_input" id="nameInput" minlength="5" placeholder="Enter your last name here" min="5" />
+        </div>
+           
+        <div><label for="emailInput">Email</label></div>
+        <div class="input-wrapper">
+            <i class="fas fa-envelope"></i>
+            <input required class="input-validation" type="email" id="emailInput" placeholder="Enter your email" />
+        </div>   
+
+        
+        <div class="separator-second"></div>
+
+        <div><label for="textarea">Message</label></div>
+        <textarea required  class="input-validation" id="textarea" rows="50" cols="250"></textarea>
+
+        <div class="form-end">
+            <button type="submit">Submit</button>
+            <span>or press</span>
+            <a href="https://www.google.com/">enter</a>
+        </div>
+        
+    </form>
+    
+
+        <footer class="footer-content">
+            <h2>Blockchain</h2>
+            <h3>Technologi</h3>
+        </footer>
+    
+    </div>
+
+</body>
+</html>
